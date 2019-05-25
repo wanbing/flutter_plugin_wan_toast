@@ -3,8 +3,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 class FlutterPluginWanToast {
-  static const MethodChannel _channel =
-      const MethodChannel('flutter_plugin_wan_toast');
+  static const MethodChannel _channel = const MethodChannel('flutter_plugin_wan_toast');
 
 
   static Future<String> get platformVersion async {
